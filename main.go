@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/animal"
-	"github.com/monkey"
-	"github.com/human"
-	"github.com/politician"
+	"github.com/DRAGON110322/lab4/animal"
+	"github.com/DRAGON110322/lab4/monkey"
+	"github.com/DRAGON110322/lab4/human"
+	"github.com/DRAGON110322/lab4/politician"
 	"math/rand"
 	"time"
 )
@@ -12,15 +12,14 @@ import (
 func main() {
 	rand.Seed(time.Now().UnixNano())
 
-	// Пример использования
-	a := animal.NewAnimal("Инокентий", 18, "Лось")
+	a := animal.NewAnimal("Лось", 5, "Лось")
 	a.Eat()
 
-	m := monkey.NewMonkey("Игнат", 19, "Обезьяна", 4)
+	m := monkey.NewMonkey("Абу", 3, "Обезьяна", 5)
 	m.ThrowShit()
 
-	h := human.NewHuman("Анна", 25, "Человек", 0, "женщина")
-	h.SaySomething()
+	h := human.NewHuman("Иван", 30, "Человек", 0, "мужчина")
+	h.Work()
 
 	p := politician.NewPolitician("Петров", 50, "Человек", 0, "мужчина", "региональный")
 	p.Campaign()
