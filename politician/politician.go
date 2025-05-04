@@ -2,6 +2,7 @@ package politician
 
 import (
 	"fmt"
+	"github.com/DRAGON110322/lab4/human")
 	"math/rand"
 	"time"
 )
