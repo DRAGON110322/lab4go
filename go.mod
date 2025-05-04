@@ -1,11 +1,10 @@
-module github.com/DRAGON110322/lab3
+module github.com/DRAGON110322/lab4
 
+go 1.21
 
-go 1.24.2
-
-replace (
-    github.com/animal => ./animal
-    github.com/monkey => ./monkey
-    github.com/human => ./human
-    github.com/politician => ./politician
-) 
+require (
+    github.com/DRAGON110322/lab4/animal v0.1.0
+    github.com/DRAGON110322/lab4/monkey v0.1.0
+    github.com/DRAGON110322/lab4/human v0.1.0
+    github.com/DRAGON110322/lab4/politician v0.1.0
+)
