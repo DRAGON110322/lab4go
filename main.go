@@ -1,10 +1,10 @@
 package main
 
 import (
-	"example.com/animal"
-	"example.com/monkey"
-	"example.com/human"
-	"example.com/politician"
+	"github.com/animal"
+	"github.com/monkey"
+	"github.com/human"
+	"github.com/politician"
 	"math/rand"
 	"time"
 )
